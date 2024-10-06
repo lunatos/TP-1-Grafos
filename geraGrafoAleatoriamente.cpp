@@ -46,6 +46,7 @@ void unionSets(vector<int> &parent, int u, int v)
 // Cria uma Arvore geradora
 void generateSpanningTree(int N, vector<pair<int, int>> &edges)
 {
+    //geradores de numeros aleatorios muito grandes
     random_device rd;
     mt19937 mt(rd());
     uniform_int_distribution<int> dist(1, N);
